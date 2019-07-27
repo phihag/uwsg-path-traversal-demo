@@ -2,6 +2,8 @@
 
 Demo for https://stackoverflow.com/q/57172511/35070
 
+
+
 Run locally:
 
 ```sh
@@ -10,8 +12,9 @@ $ pipenv install
 $ ./demo.sh
 ```
 
-Run with docker image:
+Build & run local docker image:
 
 ```
-$ 
+$ docker build -t uwsgi-path-traversal-demo .
+$ docker run --rm uwsgi-path-traversal-demo
 ```
