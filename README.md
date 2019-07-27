@@ -2,7 +2,10 @@
 
 Demo for https://stackoverflow.com/q/57172511/35070
 
-
+Run with docker:
+```sh
+$ docker run --rm phihag/uwsgi-path-traversal-demo
+```
 
 Run locally:
 
